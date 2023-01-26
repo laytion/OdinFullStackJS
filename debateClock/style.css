@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 100%;
+    font-family: monospace, monospace;
+}
+
+main {
+    width: 100%;
+    padding: 0, 10px;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.player {
+    margin: 1em 0 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.player_tile1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: inset 3px 3px 0 black, inset -3px 3px 0 black, inset -3px -3px 0 black, inset 3px -3px black;
+}
+
+.player_tile2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: inset 3px 3px 0 black, inset -3px 3px 0 black, inset -3px -3px 0 black, inset 3px -3px black;
+}
+
+.player_2 {
+    margin-left: 20px;
+}
+
+.player_digits {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.timer_buttons {
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.modes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.normal,
+.CF,
+.GCF {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.timer_start_bttn,
+.timer_switch_bttn,
+.timer_pause_bttn {
+    width: 30%;
+    margin: 10px 30px;
+    min-height: 50px;
+    max-width: 400px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    border: 4px solid #000000;
+}
+
+.timer_start_bttn {
+    color: black;
+    background-color: white;
+}
+
+.timer_pause_bttn {
+    color: white;
+    background-color: black;
+}
